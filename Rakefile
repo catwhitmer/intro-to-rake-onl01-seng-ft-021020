@@ -11,8 +11,6 @@ desc 'outputs hello to the terminal'
 end
 
 
-
-
 task :environment do
   require_relative './config/environment'
 end
@@ -29,9 +27,6 @@ desc 'seed the database with some dummy data'
 end
   end
 end
-
-
-
 
 desc 'drop into the Pry console'
 task :console => :environment do
