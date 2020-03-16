@@ -10,8 +10,9 @@ desc 'outputs hello to the terminal'
   end
 end
 
-require_relative './config/environment'
 task :environment do
+  require_relative './config/environment'
+
   
     Student.create_table
   end
